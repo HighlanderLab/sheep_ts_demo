@@ -3,9 +3,6 @@
 ## Course Schedule (liable to change)
 ![image](https://github.com/HighlanderLab/sheepTSexample/assets/10515056/9c648a85-9f5b-4651-b607-ee5a19cdfb4d)
 
-
-
-
 ## Setup
 1. (Optional) To run the simulation script, you need to set up [scrm](https://scrm.github.io/)
 2. For the simulation script and data analysis, you need an environment with tsinfer and numpy, e.g. `conda create -n tsinfer -conda-forge tsinfer numpy ipython`
@@ -16,7 +13,7 @@ There is a simulated data set of 105 sheep (i.e. 210 haploid genomes) along 1Mbp
 * 50 Iranian
 * 50 Border
 
-Demography (N - effective population size, sampled - number of diplopids sampled)
+Demography (N - effective population size, sampled - number of diplopids sampled) following the work of Pedro Morell Miranda et al. (2023; Demographic reconstruction of the Western sheep expansion from whole-genome sequences, https://academic.oup.com/g3journal/article/13/11/jkad199/7262565)
 <img src="https://github.com/HighlanderLab/sheepTSexample/assets/10515056/270c1061-a9d5-464a-9627-ea30e962ee88" width=50%>
 
 ## VCF vs Tree Sequence (TS)
